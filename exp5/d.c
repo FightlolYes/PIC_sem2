@@ -3,7 +3,7 @@
 
 int main() {
 
-    char username[10] = "Yash";
+    char username[10] = "Yash07";
     char inuser[10];
 
     int num;
