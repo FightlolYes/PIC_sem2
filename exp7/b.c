@@ -12,7 +12,7 @@ int main() {
 
     struct marks marks[5];
 
-    for(int i = 0; i<4; i++) {
+    for(int i = 0; i<5; i++) {
 
         printf("Student %d name: \n", i + 1);
         scanf("%s", &marks[i].name);
@@ -31,9 +31,9 @@ int main() {
                 
     }
 
-    for(int i = 0; i<4; i++) {
+    for(int i = 0; i<5; i++) {
         per = (marks[i].chem_marks + marks[i].maths_marks + marks[i].phy_marks)/300.0*100;
-        printf("%s percentage: %3.2f\n", marks[i].name,per);
+        printf("%s's percentage: %3.2f\n", marks[i].name,per);
     }
 
     return 0;
