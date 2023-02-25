@@ -27,15 +27,15 @@ int main() {
                 
     }
 
-    for(int i = 0; i<10; i++) {
+    for(int j = 0; j<10; j++) {
 
-        printf("Company %d name: %s\n", i+1, company[i].name);
+        printf("Company %d name: %s\n", j+1, company[j].name);
 
-        printf("Company %d address: %s\n", i+1, company[i].address);
+        printf("Company %d address: %s\n", j+1, company[j].address);
 
-        printf("Company %d phoneno: %d\n", i+1, company[i].phone);
+        printf("Company %d phoneno: %d\n", j+1, company[j].phone);
 
-        printf("Company %d employee count: %d\n\n", i+1, company[i].noOfEmployee);
+        printf("Company %d employee count: %d\n\n", j+1, company[j].noOfEmployee);
                 
     }
 
